@@ -1,11 +1,7 @@
 $(document).ready(function () {
 
-$('#navContact').on('click', function () {
-     $('#contact').show();
+$('#navContact, #closedBox').on('click', function () {
+     $('#contact').slideToggle();
 });
-
-$("#closeBox").on('click', function(){
-    $('#contact').slideToggle();
-})
 
 });
